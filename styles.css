@@ -1,6 +1,46 @@
+.container {
+    max-width: 1440px;
+    background: var(--yellow);
+    margin: auto;
+}
+
+.card-container {
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    padding: 24px;
+    width: 384px;
+    height: 522px;
+    box-shadow: 8px 8px 0 0 #000;
+    background: var(--pure-white);
+    margin: auto;
+}
+
+.card-image {}
+
+.card-tag {}
+
+.card-date {}
+
+.card-heading {}
+
+.card-text-preview {}
+
+.card-author-wrapper {}
+
+.card-author-photo {}
+
+.card-author-name {}
+
+.attribution {}
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .attribution a {
