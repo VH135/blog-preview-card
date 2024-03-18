@@ -13,9 +13,21 @@
     box-shadow: 8px 8px 0 0 #000;
     background: var(--pure-white);
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.card-image {}
+.card-image {
+    width: 336px;
+    margin: auto;
+}
+
+.card-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
 
 .card-tag {}
 
