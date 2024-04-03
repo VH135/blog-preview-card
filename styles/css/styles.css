@@ -21,13 +21,16 @@ body {
   padding: 24px;
   width: 384px;
   height: 522px;
-  box-shadow: 8px 8px 0 0 #000;
+  box-shadow: 8px 8px 0 0 #111;
   background: #fff;
   margin: auto;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.card-container:hover {
+  box-shadow: 16px 16px 0 0 #111;
 }
 
 .card-image {
@@ -45,7 +48,6 @@ body {
   border-radius: 4px;
   padding: 4px 12px;
   width: 82px;
-  -height: 29px;
   background-color: #f4d04e;
   margin-bottom: 12px;
 }
@@ -67,6 +69,10 @@ body {
   font-size: 24px;
   line-height: 150%;
   margin-bottom: 12px;
+  cursor: pointer;
+}
+.card-heading:hover {
+  color: #f4d04e;
 }
 
 .card-text-preview {
@@ -100,7 +106,7 @@ body {
 }
 
 .attribution {
-  font-size: 18px;
+  font-size: 0.8em;
   text-align: center;
   position: fixed;
   bottom: 0;
