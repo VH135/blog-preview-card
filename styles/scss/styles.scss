@@ -120,3 +120,22 @@ body {
 .attribution a {
     color: $blue;
 }
+
+/* media styles start */
+
+@media screen and (max-width: 430px) {
+    
+    .card-container {
+        width: 327px;
+    }
+
+    .card-image {
+       width: 279px;
+    }
+
+    .card-image img {
+        object-fit: cover;
+    }
+}
+
+/* media styles end */

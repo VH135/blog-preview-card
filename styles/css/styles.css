@@ -117,3 +117,18 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* media styles start */
+@media screen and (max-width: 430px) {
+  .card-container {
+    width: 327px;
+  }
+  .card-image {
+    width: 279px;
+  }
+  .card-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+/* media styles end */
