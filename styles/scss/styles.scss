@@ -130,11 +130,26 @@ body {
     }
 
     .card-image {
-       width: 279px;
+        width: 279px;
     }
 
     .card-image img {
+        max-width: 279px;
+        max-height: 200px;
+        border-radius: 10px;
         object-fit: cover;
+    }
+
+    .card-heading {
+        font-size: 20px;
+    }
+
+    .card-date {
+        font-size: 12px;
+    }
+
+    .card-text-preview {
+        font-size: 14px;
     }
 }
 
