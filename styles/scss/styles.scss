@@ -65,7 +65,7 @@ body {
     margin-bottom: 12px;
 }
 
-.card-heading {
+.card-heading h1 {
     font-weight: map-get($map: $font-weights, $key: ExtraBold);
     font-size: 24px;
     line-height: 150%;
@@ -142,7 +142,7 @@ body {
         object-fit: cover;
     }
 
-    .card-heading {
+    .card-heading h1 {
         font-size: 20px;
     }
 

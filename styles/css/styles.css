@@ -4,6 +4,14 @@
   margin: 0;
   padding: 0;
 }
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6 {
+  font-size: inherit;
+}
 
 body {
   font-family: "Figtree", sans-serif;
@@ -64,14 +72,14 @@ body {
   margin-bottom: 12px;
 }
 
-.card-heading {
+.card-heading h1 {
   font-weight: 900;
   font-size: 24px;
   line-height: 150%;
   margin-bottom: 12px;
   cursor: pointer;
 }
-.card-heading:hover {
+.card-heading h1:hover {
   color: #f4d04e;
 }
 
@@ -135,7 +143,7 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .card-heading {
+  .card-heading h1 {
     font-size: 20px;
   }
   .card-date {
