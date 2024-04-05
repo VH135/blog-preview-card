@@ -52,7 +52,7 @@ Pixel Perfect is a great tool to check how my work matches with the layout and I
 
 ### Continued development
 
-Have plans to learn more about media queries and responsive desing.
+Have plans to learn more about media queries and responsive design.
 
 
 ### Useful resources
